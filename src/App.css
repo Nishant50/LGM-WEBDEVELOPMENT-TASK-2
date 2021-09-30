@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,88 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin:0;
+  padding:0; 
+  font-family: 'Poppins';
+}
+
+.navigation{
+  padding: 30px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+
+  flex-wrap:wrap;
+  
+}
+h1{
+  color: rgb(240, 3, 252);
+  font-size: 45px;
+  font-weight: 600;
+
+}
+button{
+  
+  transition: all 0.3s ease-in-out;
+  padding: 0.2rem 0.8em;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(0,0,0);
+  border: 2px solid rgb(71,68,71);
+  outline: none
+  ;
+  font-size: 2rem;
+  border-radius: 25px;
+  box-shadow: none;
+  -webkit-box-shadow:none;
+}
+
+button:hover{
+  color: rgb(97, 73, 123);
+  background: rgb(251,223,113);
+  border: 2px solid black;
+  cursor: pointer;
+}
+.flex{
+  
+  column-gap: 10px;
+  justify-content: center;
+  background-color:  rgb(3, 240, 252);;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.info{
+  border-radius:10%;
+  background-image: linear-gradient(rgb(41,29,16)),rgb(233,240,255);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform .2s;
+  border:2px solid rgb(251,223,113);
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgb(0 ,0, 0, 0.8);
+  
+}
+.info:hover{
+  transform:scale(1.08);
+}
+.info img{
+  border-radius: 50px;
+}
+.info .name{
+  color:#fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  
+}
+.info p{
+  color:#fff;
+  font-size:0.8rem;
+  font-weight: 500;
 }
